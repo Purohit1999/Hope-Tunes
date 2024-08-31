@@ -1,7 +1,7 @@
 # Hope Tunes : 
-[Here is the link]()
+[Here is the link](https://purohit1999.github.io/Hope-Tunes/)
 
-![Hope Tunes Logo](./assets/Resposibe.png)
+![Hope Tunes Logo](./assets/Responsive.png)
 
 ## 🎵 Harmonizing Mental Wellness Through Technology
 
