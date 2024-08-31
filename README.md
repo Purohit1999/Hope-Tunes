@@ -44,7 +44,7 @@ Welcome to Hope Tunes—a compassionate web application designed to nurture ment
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/hopetunes.git
+   git clone https://github.com/Purohit1999/hopetunes.git
    ```
 2. Navigate to the project directory:
    ```
