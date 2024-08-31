@@ -5,7 +5,9 @@
 
 ## 🎵 Harmonizing Mental Wellness Through Technology
 
-Welcome to Hope Tunes—a compassionate web application designed to nurture mental well-being through a symphony of soothing music, uplifting affirmations, intuitive mood tracking, reflective gratitude journaling, and calming breathing exercises. Our mission is to provide a digital sanctuary for those seeking solace, relaxation, and emotional support.
+Welcome to Hope Tunes—a compassionate web application designed to nurture mental well-being through a symphony of soothing music, uplifting affirmations, intuitive mood tracking, reflective gratitude journaling, and calming breathing exercises. Our mission is to provide a digital sanctuary for those seeking solace, relaxation, and emotional support.  
+Suicides in England 2022. [PDF document]. Retrieved from [repository link].
+
 
 ## ✨ Features  
 
