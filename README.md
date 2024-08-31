@@ -1,6 +1,6 @@
 # Hope Tunes
 
-![Hope Tunes Logo](./assets/logo.png)
+![Hope Tunes Logo](./assets/logo.jpeg)
 
 ## 🎵 Harmonizing Mental Wellness Through Technology
 
