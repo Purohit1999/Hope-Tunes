@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope Tunes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="container">
+        <h1>Hope Tunes</h1>
+        <p class="affirmation" id="affirmation"></p>
+        <button id="playButton">Play Music</button>
+        <audio id="audioPlayer" src="./assets/Daylight3.mp3"></audio>
+        <p class="resource-link">
+            Need help? <a href="https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/" target="_blank">Talk to someone &#9742;</a>
+        </p>
+
+        <div class="mood-tracker">
+            <h2>How are you feeling today?</h2>
+            <div class="mood-buttons">
+                <button class="mood" data-mood="1">😢</button>
+                <button class="mood" data-mood="2">😐</button>
+                <button class="mood" data-mood="3">🙂</button>
+                <button class="mood" data-mood="4">😄</button>
+            </div>
+        </div>
+        <div class="gratitude-journal">
+            <h2>Gratitude Journal</h2>
+            <textarea id="gratitudeEntry" placeholder="Write something you're grateful for..."></textarea>
+            <button id="saveGratitude">Save</button>
+        </div>
+        <div class="breathing-exercise">
+            <h2>Breathing Exercise</h2>
+            <p id="breathingInstruction">Breathe in...</p>
+            <div id="breath-circle"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

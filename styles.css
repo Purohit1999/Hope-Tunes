@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+    filter: brightness(30%); /* Darker background */
+}
+
+.container {
+    text-align: center;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* More transparency for contrast */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+h1, h2 {
+    color: #4a90e2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Enhanced shadow for better contrast */
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.affirmation {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+.resource-link {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;  /* Increased font size */
+    font-weight: bold;  /* Bold text to make it stand out */
+    color: #e74c3c;
+    padding: 10px;
+    background-color: rgba(255, 235, 235, 0.8); /* Light background to make it stand out */
+    border-radius: 5px;
+}
+
+.resource-link a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.resource-link a:hover {
+    text-decoration: underline;
+}
+
+.resource-link a::before {
+    content: "\260E"; /* Telephone icon */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+
+.mood-tracker, .gratitude-journal, .breathing-exercise {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.4); /* Increased transparency for content blocks */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.mood-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.mood {
+    font-size: 1.5em;
+    padding: 8px;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#breath-circle {
+    width: 80px;
+    height: 80px;
+    margin: 15px auto;
+    border-radius: 50%;
+    background-color: #4a90e2;
+    animation: breathe 8s infinite ease-in-out;
+}
+
+@keyframes breathe {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(74, 144, 226, 0.6);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(74, 144, 226, 0.8);
+}
