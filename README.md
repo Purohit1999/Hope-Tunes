@@ -7,7 +7,10 @@
 
 Welcome to Hope Tunes—a compassionate web application designed to nurture mental well-being through a symphony of soothing music, uplifting affirmations, intuitive mood tracking, reflective gratitude journaling, and calming breathing exercises. Our mission is to provide a digital sanctuary for those seeking solace, relaxation, and emotional support.
 
-## ✨ Features
+## ✨ Features  
+
+### 🖼️ Imagery 
+- Images created from free Bing AI tool [Here Link](https://www.bing.com/images/create/)
 
 ### 🌟 Affirmations
 - Curated positive affirmations to inspire and encourage
