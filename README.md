@@ -102,7 +102,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by the global need for accessible mental health tools
 - Affirmations and visuals curated by mental health professionals
 - Music: "Daylight" by David Kushner, Drake Livingston, Edison Boon Eason, Hayden Hubers, Jeremy Fedryk, Joshua Bruce Williams
-
+- EKC https://www.ekcgroup.ac.uk/
+- Code Institue https://codeinstitute.net/full-stack-software-development-diploma/
+  
 ## 📞 Support
 
 If you're experiencing a mental health crisis, please reach out for help:
