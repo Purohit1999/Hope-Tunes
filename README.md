@@ -1,6 +1,7 @@
-# Hope Tunes
+# Hope Tunes : 
+[Here is the link]()
 
-![Hope Tunes Logo](./assets/logo.jpeg)
+![Hope Tunes Logo](./assets/Resposibe.png)
 
 ## 🎵 Harmonizing Mental Wellness Through Technology
 
